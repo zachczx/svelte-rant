@@ -5,8 +5,12 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {
+			fontFamily: {
+				sans: ["'Space Grotesk Variable'"],
+			},
+		},
 	},
 
-	plugins: [typography]
+	plugins: [typography],
 } as Config;
